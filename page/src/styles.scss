@@ -1,0 +1,38 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body {
+  padding: 0%;
+  margin: 0%;
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--bg-color);
+  color: var(--font-color);
+}
+
+h1 {
+  color: var(--secondary-color);
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+:root {
+  --primary-color: rgb(110, 109, 109);
+  --secondary-color: #536390;
+  --font-color: #424242;
+  --bg-color: #fff;
+  --heading-color: #292922;
+}
+
+[data-theme="dark"] {
+  --primary-color: #9A97F3;
+  --secondary-color: #818cab;
+  --font-color: #e1e1ff;
+  --bg-color: #161625;
+  --heading-color: #818cab;
+}

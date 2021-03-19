@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 2%;
+  font-weight: 700;
+
+  .sections {
+    width: 30%;
+
+    ul {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+
+}
+
